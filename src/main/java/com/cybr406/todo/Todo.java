@@ -1,8 +1,5 @@
 package com.cybr406.todo;
 
-import com.sun.tools.sjavac.server.Sjavac;
-import jdk.javadoc.internal.doclets.formats.html.markup.Table;
-
 import javax.persistence.*;
 import javax.validation.constraints.NotBlank;
 import java.util.ArrayList;
@@ -74,4 +71,5 @@ public class Todo {
     public int hashCode() {
         return Objects.hash(id, author, details, tasks);
     }
+
 }
