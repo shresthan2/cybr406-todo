@@ -2,6 +2,8 @@ package com.cybr406.todo;
 
 import com.cybr406.todo.Task;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
 
-public interface TodoJpaRepository extends JpaRepository<Task,Long> {
+@Repository
+public interface TodoJpaRepository extends JpaRepository<Todo,Long> {
 }
