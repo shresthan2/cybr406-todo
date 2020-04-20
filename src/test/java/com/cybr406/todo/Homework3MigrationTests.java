@@ -208,7 +208,6 @@ public class Homework3MigrationTests {
 
     /**
      * Problem 5 - Create a complete changeSet for the task table.
-     * 
      * Now that you've seen how changeSet, createTable, and column work together, do the same procedure for the task
      * table.
      */
